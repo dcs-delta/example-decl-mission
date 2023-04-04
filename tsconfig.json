@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"rootDir": "src",
+		"outDir": "bin",
+
+		"strict": true,
+		"declaration": false,
+		"target": "ESNext",
+		"lib": ["ESNext"],
+
+		"types": [
+			"@dcs-delta/msdk-declarations"
+		],
+
+		"moduleResolution": "node"
+	},
+
+	"tstl": {
+		"luaTarget": "5.1",
+		"sourceMapTraceback": true,
+		"luaLibImport": "require",
+		"luaBundle": "bundle.lua",
+		"luaBundleEntry": "src/main.ts",
+		"noHeader": false
+	},
+
+	"include": [
+		"src/**/*.ts"
+	]
+}

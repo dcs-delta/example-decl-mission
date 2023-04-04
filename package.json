@@ -1,0 +1,15 @@
+{
+    "private": true,
+
+    "scripts": {
+        "clean": "rm -v bin/bundle.lua",
+        "realclean": "rm -rvf bin",
+        "build": "tstl"
+    },
+
+    "devDependencies": {
+		"typescript": "4.9.5",
+		"typescript-to-lua": "1.13.3",
+        "@dcs-delta/msdk-declarations": "^1.0.1"
+    }
+}

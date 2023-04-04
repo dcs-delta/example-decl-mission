@@ -1,0 +1,21 @@
+# Enable whitelisting mode
+*
+!*/
+
+# Allow repo files
+!.gitignore
+!.editorconfig
+!*.md
+
+# Allow project files
+!package.json
+!tsconfig.json
+
+# Allow source files
+!src/**/*.ts
+
+# Disallow artifacts
+bin
+obj
+node_modules
+package-lock.json
